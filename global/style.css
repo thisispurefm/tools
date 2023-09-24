@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+/* ***** */
+/* Root definitions to be used throughout website */
+/* ***** */
+
+:root{
+    --pureDBlue: #192A3D;
+    --pureBlue: #009FE3;
+    --purePurple: #912191;
+    --pureBlack: #000;
+    --pureWhite: #FFF;
+    --backColour: #fff;
+    --foreColour: #000;
+}
+
+body{
+    font-family: 'Passion One', sans-serif;
+    margin: 0px auto;
+}
+
+main{
+    min-height: 90vh;
+}
+
+/* ***** */
+/* Site wide header and footer */
+/* ***** */
+
+.head-foot{
+    /* margin: 0px; */
+    background-color: var(--pureDBlue);
+    /* width:100%; */
+    display:flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--pureWhite);
+}
+
+.head{
+    font-size: 150%;
+}
+.foot{
+    align-items: center;
+    justify-content: center;
+}
+
+.head-foot img{
+    width: 8em;
+}
+
+.head-foot > p{
+    margin: auto;
+}
+
+.head-foot img, .head-foot p{
+    position: relative;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.head-foot a{
+    color: var(--pureWhite);
+}
+
+/* ***** */
+/* Page title */
+/* ***** */
+
+header{
+    height: 6em;
+    width:100%;
+    margin: 2em 0 3em 0;
+    /* yes we really do use a flexbox here just to vertically align the content where we want it */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    font-size: 150%;
+    text-align:center;
+}
+
+.primary-head{
+    background-color: var(--purePurple);
+    color: var(--pureBlue);
+}
+
+.secondary-head{
+    background-color: var(--pureBlue);
+    color: var(--purePurple);
+}
+
+/* ***** */
+/* Section width and responsiveness */
+/* ***** */
+
+section{
+    width: 60%;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 430px) {
+    section{
+        width: 100%;
+    }
+}
+
+/* ***** */
+/* Themed buttons */
+/* ***** */
+
+.theme-button{
+    margin: 1em;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--purePurple);
+}
+
+.theme-button-secondary{
+    background-color: var(--backColour);
+    border: 1px solid var(--purePurple);
+    color: var(--foreColour);
+}
+
+.theme-button-secondary:hover{
+    background-color: var(--purePurple);
+    color: var(--backColour);
+}
+
+.theme-button-primary{
+    background-color: var(--purePurple);
+    color: var(--backColour);
+}
+
+.theme-button-primary:hover{
+    background-color: transparent;
+    border: 1px solid var(--purePurple);
+    color: var(--foreColour);
+}
+
+
+/* ***** */
+/* Stats table customisaiton */
+/* ***** */
+
+.stats-table table{
+    border-collapse: collapse;
+    margin: 0px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stats-table tr{
+    line-height: 25px;
+    border-bottom: 1px solid var(--pureDBlue);
+}
+
+.stats-table th{
+    color: var(--purePurple);
+}
+
+/* ***** */
+/* Calendar customisaiton */
+/* ***** */
+
+.cal{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px auto;
+}
+.cal > td{
+    padding: 0;
+    margin: 0;
+}
+.cal-time-row{
+height:  10px;
+}
+.cal-time-col{
+    width: 3rem;
+    border-bottom: 1px solid #696969;
+}
+.cal-day-col{
+    width: 13.57%;
+}
+.cal-event-heavy{
+    border-bottom-color: #696969;
+}
+.cal-event-light{
+    border-bottom-color: #A9A9A9;
+}
+
+.cal-event-cell{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left: 2px solid #696969;
+    border-right: 2px solid #696969;
+}
+.cal-event-cell:last-of-type{
+    border-right: none;
+}
+.cal-event-free{
+    background-color: lightgreen;
+}
+.cal-event-busy{
+    background-color: red;
+    border-bottom: none;
+}
+.cal th{
+    position: sticky;
+    top: 0;
+    background-color: var(--backColour);
+}
+.cal th, .cal tr:last-of-type{
+    border-bottom: 2px solid #696969;
+}
+
+/* Button Styling */
+.cal-nav > form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.cal-nav > form > button{
+    margin: 1em auto 1em auto;
+}
+.cal-nav > form > button:nth-child(1){
+    margin-left: 0px;
+}
+.cal-nav > form > button:nth-child(3){
+    margin-right: 0px;
+}
