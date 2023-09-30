@@ -21,16 +21,6 @@
     <p><a href="/stats">Broadcast stats</a></p>
     <p><a href="/avail-s1">Studio 1 availability</a></p>
     </section>
-
-    <section style="background-color: #cdcdcd;">
-    <p>Thomas' to do list</p>
-    <p>clean up the utter abombination of code which powers the calendar page</p>
-    <p>add a day to view calendar</p>
-    <p>add s2 and ob kit calendars</p>
-    <p>add studio clock thing</p>
-    <p>maybe, if im feeling brave - add a noticeboard thing</p>
-    </section>
-
 </main>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/global/footer.php");?>
 </body>
