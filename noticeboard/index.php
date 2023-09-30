@@ -22,7 +22,7 @@ function renderNotices(){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broadcast Stats | PureFM Tools</title>
+    <title>Noticeboard | PureFM Tools</title>
     <link rel="stylesheet" href="/global/style.css">
     <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
 
