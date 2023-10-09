@@ -236,6 +236,41 @@ height:  10px;
     margin-right: 0px;
 }
 
+/* HOME PAGE NAV ITEMS */
+.home-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-menu > a{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0.5em;
+    border-left: 3px solid var(--purePurple);
+    width: 15em;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 120%;
+    color: var(--purePurple);
+}
+
+.home-menu p{
+    text-align: center;
+}
+.home-menu i{
+    margin-right: 1em;
+}
+
+.home-menu > a:hover{
+    transform: scale(1.05);
+}
 
 /* ***** */
 /* Noticeboard customisaiton */
