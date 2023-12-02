@@ -5757,6 +5757,7 @@
  }
  .mdl-cell {
      box-sizing: border-box;
+     background-color: #BDBDBD;
  }
  .mdl-cell--top {
      -webkit-align-self: flex-start;
