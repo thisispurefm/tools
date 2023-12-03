@@ -1,4 +1,4 @@
-<header class="mdl-layout__header">
+<header class="mdl-layout__header mdl-color--purple">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">PureFM Tools</span>
@@ -13,12 +13,12 @@
       </nav>
     </div>
   </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+  <div class="mdl-layout__drawer ">
+    <span class="mdl-layout-title"><img src="/assets/pure-logo.png" width="170" alt="PureFM logo"></span>
+    <nav class="mdl-navigation custom-nav-sidebar">
+      <a class="mdl-navigation__link" href="/"><i class="material-icons" role="presentation">home</i>Home</a>
+      <a class="mdl-navigation__link" href="/s1-calendar/"><i class="material-icons" role="presentation">event</i>S1 Availability</a>
+      <a class="mdl-navigation__link" href="/s2-calendar/"><i class="material-icons" role="presentation">event</i>S2 Calendar</a>
+      <!-- <a class="mdl-navigation__link" href=""><i class="material-icons" role="presentation">home</i>Home</a> -->
     </nav>
   </div>

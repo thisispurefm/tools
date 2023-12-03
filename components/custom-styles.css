@@ -1,0 +1,28 @@
+.custom-inner-padding{
+    padding: 1em;
+}
+
+.custom-nav-sidebar .mdl-navigation__link .material-icon{
+    margin-right: 32px;
+}
+
+.custom-main-content{
+    max-width: 1080px;
+}
+
+.custom-cell-white-bg{
+    background-color: white;
+}
+
+.mdl-grid.center-items {
+    justify-content: center;
+  }
+
+.demo-card-square.mdl-card {
+  width: 100%;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: #9c27b0;
+}
