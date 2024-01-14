@@ -3368,7 +3368,7 @@
      -ms-flex-wrap: nowrap;
      flex-wrap: nowrap;
      padding: 16px;
-     cursor: default;
+     /* cursor: default; */
      color: rgba(0, 0, 0, 0.87);
      overflow: hidden;
  }
@@ -3432,8 +3432,8 @@
  }
  .mdl-list__item-avatar,
  .mdl-list__item-avatar.material-icons {
-     height: 40px;
-     width: 40px;
+     height: 50px;
+     width: 50px;
      box-sizing: border-box;
      border-radius: 50%;
      background-color: #757575;
@@ -3803,6 +3803,7 @@
  }
  .mdl-navigation__link .material-icons {
      vertical-align: middle;
+     padding-right: 0.5em; /* added by TB */
  }
  .mdl-layout {
      width: 100%;
