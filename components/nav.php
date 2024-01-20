@@ -20,6 +20,7 @@
       <a class="mdl-navigation__link" href="/"><i class="material-icons" role="presentation">home</i>Home</a>
       <a class="mdl-navigation__link" href="/s1-calendar/"><i class="material-icons" role="presentation">event</i>S1 Availability</a>
       <a class="mdl-navigation__link" href="/s2-calendar/"><i class="material-icons" role="presentation">event</i>S2 Availability</a>
+      <a class="mdl-navigation__link" href="/music-search/"><i class="material-icons" role="presentation">search</i>Music Search</a>
       <p class="mdl-navigation__link nav-drawer-section-header">Tech</p>
       <a class="mdl-navigation__link" href="/internal-links/"><i class="material-icons" role="presentation">link</i>Internal Links</a>
       <!-- <a class="mdl-navigation__link" href=""><i class="material-icons" role="presentation">home</i>Home</a> -->

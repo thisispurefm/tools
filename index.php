@@ -44,7 +44,7 @@
               A live clock display for the studio
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://thomasboxall.github.io/purefm-clock/" target="_blank">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://clock.thisispurefm.com/" target="_blank">
                 Open Clock
               </a>
             </div>
