@@ -68,3 +68,7 @@
   padding-left: 0.25em;
   font-size: 14px;
 }
+
+.mdl-list__item:hover{
+  background-color: #fafafa;
+}
