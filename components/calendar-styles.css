@@ -1,0 +1,71 @@
+/* ***** */
+/* Calendar customisaiton */
+/* ***** */
+
+.cal{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px auto;
+}
+.cal > td{
+    padding: 0;
+    margin: 0;
+}
+.cal-time-row{
+height:  10px;
+}
+.cal-time-col{
+    width: 3rem;
+    border-bottom: 1px solid #696969;
+}
+.cal-day-col{
+    width: 13.57%;
+}
+.cal-event-heavy{
+    border-bottom-color: #696969;
+}
+.cal-event-light{
+    border-bottom-color: #A9A9A9;
+}
+
+.cal-event-cell{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left: 2px solid #696969;
+    border-right: 2px solid #696969;
+}
+.cal-event-cell:last-of-type{
+    border-right: none;
+}
+.cal-event-free{
+    background-color: lightgreen;
+}
+.cal-event-busy{
+    background-color: red;
+    border-bottom: none;
+}
+.cal th{
+    position: sticky;
+    top: 0;
+    background-color: var(--backColour);
+}
+.cal th, .cal tr:last-of-type{
+    border-bottom: 2px solid #696969;
+}
+
+/* Button Styling */
+.cal-nav > form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.cal-nav > form > button{
+    margin: 1em auto 1em auto;
+}
+.cal-nav > form > button:nth-child(1){
+    margin-left: 0px;
+}
+.cal-nav > form > button:nth-child(3){
+    margin-right: 0px;
+}
