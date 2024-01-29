@@ -72,3 +72,8 @@
 .mdl-list__item:hover{
   background-color: #fafafa;
 }
+
+.home-quick-link.mdl-card{
+  width: 100%;
+  height: 125px;
+}

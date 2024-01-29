@@ -30,11 +30,45 @@
     </div>
 
     <div class="mdl-grid center-items">
-    <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp custom-cell-white-bg">
+    <div class="mdl-layout-spacer"></div>
+      <div class="mdl-cell mdl-cell--4-col mdl-shadow--2dp custom-cell-white-bg">
+        <p><strong>Live To Air:</strong> Studio 1</p>
+      </div>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-cell mdl-cell--2-col mdl-shadow--2dp custom-cell-white-bg">
+        <div class="home-quick-link mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__supporting-text">
+            Sign in / out for Studio 1
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/forms/d/e/1FAIpQLSdFI7uJ6h9xsDgq0TfWJG8q4T3HYDQBi_O6r_A2ku4EXpbMnA/viewform" target="_blank">
+              Open Form
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-cell mdl-cell--2-col mdl-shadow--2dp custom-cell-white-bg">
+      <div class="home-quick-link mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__supporting-text">
+            Sign in / out for Studio 2
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://docs.google.com/forms/d/e/1FAIpQLSeolVForXUexh6puqADmczHUrZKKMnbHffN95bVOzjXyZWZ3w/viewform" target="_blank">
+              Open Form
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-layout-spacer"></div>
+    </div> 
+
+    <!-- <div class="mdl-grid center-items">
+    <div class="mdl-cell mdl-cell--10-col mdl-shadow--2dp custom-cell-white-bg"> -->
 
       <div class="mdl-grid center-items">
         <!-- NEW LINE -->
-        <!-- <div class="mdl-layout-spacer"></div> -->
+        <div class="mdl-layout-spacer"></div>
         <div class="mdl-cell mdl-cell--3-col">
           <div class="demo-card-square mdl-card mdl-shadow--2dp">
             <div class="mdl-card__title mdl-card--expand">
@@ -81,15 +115,14 @@
                 Submit Request
               </a>
             </div>
-            
           </div>
-          
         </div>
+        <div class="mdl-layout-spacer"></div>
         
       </div>
-    </div>
+    <!-- </div>
     
-    </div>
+    </div> -->
   </div>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/components/footer.php"); ?>
   </main>
